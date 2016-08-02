@@ -23,6 +23,9 @@ class Candidato extends CI_Controller{
       $this->load->view('site/contact');
       $this->load->view('DespuesC/footer');  }
 
+
+
+function ()
   function Privacy(){
      $this->load->view('DespuesC/nav');
      $this->load->view('site/privacy');
