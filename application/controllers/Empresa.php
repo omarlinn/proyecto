@@ -16,6 +16,15 @@ class Empresa extends CI_Controller{
     $this->load->view('role/empresa');
     $this->load->view('DespuesE/footer');  }
 
+    function publicar(){
+
+      $this->load->view('registro/empresa/nav');
+      $this->load->view('registro//empresa/oferta');
+      $this->load->view('registro/empresa/footer');
+    }
+
+
+
   function service(){
      $this->load->view('DespuesE/nav');
      $this->load->view('site/service');
