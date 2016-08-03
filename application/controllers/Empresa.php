@@ -12,9 +12,9 @@ class Empresa extends CI_Controller{
   function index()
   {
 
-    $this->load->view('DespuesE/nav');
+    $this->load->view('empresa/nav');
     $this->load->view('role/empresa');
-    $this->load->view('DespuesE/footer');  }
+    $this->load->view('empresa/footer');  }
 
     function publicar(){
 
@@ -26,34 +26,34 @@ class Empresa extends CI_Controller{
 
 
   function service(){
-     $this->load->view('DespuesE/nav');
+     $this->load->view('empresa/nav');
      $this->load->view('site/service');
-       $this->load->view('DespuesE/footer');  }
+       $this->load->view('empresa/footer');  }
 
   function contact(){
-     $this->load->view('DespuesE/nav');
+     $this->load->view('empresa/nav');
       $this->load->view('site/contact');
-      $this->load->view('DespuesE/footer');  }
+      $this->load->view('empresa/footer');  }
 
   function Privacy(){
-     $this->load->view('DespuesE/nav');
+     $this->load->view('empresa/nav');
      $this->load->view('site/privacy');
-     $this->load->view('DespuesE/footer');  }
+     $this->load->view('empresa/footer');  }
 
   function Principal(){
-       $this->load->view('DespuesE/nav');
+       $this->load->view('empresa/nav');
        $this->load->view('role/empresa');
-      $this->load->view('DespuesE/footer');  }
+      $this->load->view('empresa/footer');  }
 
   function search(){
-     $this->load->view('DespuesE/nav');
+     $this->load->view('empresa/nav');
       $this->load->view('site/search');
-      $this->load->view('DespuesE/footer');  }
+      $this->load->view('empresa/footer');  }
 
   function About(){
-    $this->load->view('DespuesE/nav');
+    $this->load->view('empresa/nav');
      $this->load->view('site/about');
-    $this->load->view('DespuesE/footer');  }
+    $this->load->view('empresa/footer');  }
 
 
 }
